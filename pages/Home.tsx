@@ -42,8 +42,8 @@ const Home: React.FC = () => {
           <div className="relative z-10">
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-orange-300 rounded-[2rem] transform rotate-3 opacity-20 blur-xl"></div>
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpzAP5eYjV8TT2QC0f2-3e_bn5qMjVEKiwLUQBS8zJjyDzn0AG14w2rVZF3cl6fe4Bf1F-ak5fEwdGYGnv5EhgD8OQLj3ZD6ZeW2xVfy9VxZIHdLob2mikYZT1Xw6wSY0E8HavvWzaCF9a6jV-bETPov7xtNWWggF9CpGQ7FxcDWGkiY7tgiCeeYc0dpj9igNjXCNbldoSaqG0yfxPQEbipQjY_sk-CC-ODRFJ9m_xseFxZFmBipPFzeW6dSeePdJIgINCjw7z61U"
-              alt="Consultor financeiro atendendo cliente"
+              src="/images/logo-square.jpg"
+              alt="Agiliza Crédito Logo"
               className="relative rounded-[2rem] shadow-2xl w-full h-auto object-cover transform transition-transform hover:scale-[1.02] duration-500"
             />
           </div>
@@ -170,7 +170,7 @@ const Home: React.FC = () => {
             {/* Decorative circles */}
             <div className="absolute top-0 left-0 w-64 h-64 bg-white opacity-10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
             <div className="absolute bottom-0 right-0 w-64 h-64 bg-black opacity-10 rounded-full translate-x-1/2 translate-y-1/2"></div>
-            
+
             <div className="relative z-10 max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                 Pronto para agilizar seus planos?
@@ -183,7 +183,7 @@ const Home: React.FC = () => {
                 href="https://wa.me/5563984832805"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-white text-primary font-bold py-4 px-10 rounded-full hover:bg-orange-50 transition-all shadow-lg transform hover:-translate-y-1"
+                className="inline-flex items-center justify-center gap-2 bg-white text-primary font-bold py-4 px-6 md:px-10 w-full sm:w-auto rounded-full hover:bg-orange-50 transition-all shadow-lg transform hover:-translate-y-1"
               >
                 <span className="material-icons-outlined">whatsapp</span>
                 Fale com um Consultor

@@ -23,12 +23,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 h-20 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
-            <span className="font-bold text-2xl text-white">A</span>
-          </div>
-          <span className="text-xl font-bold text-text-light dark:text-white hidden sm:block">
-            Agiliza Crédito
-          </span>
+          <img src="/images/logo-full.png" alt="Agiliza Crédito" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Nav */}

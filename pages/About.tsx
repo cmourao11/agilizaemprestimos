@@ -26,46 +26,46 @@ const About: React.FC = () => {
       <section className="py-20 bg-background-light dark:bg-background-dark">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row gap-12 items-center">
-             {/* Text Content */}
+            {/* Text Content */}
             <div className="w-full md:w-1/2 space-y-6">
-               <div className="inline-block px-4 py-1.5 bg-orange-100 dark:bg-orange-900/30 text-primary rounded-full font-semibold text-sm">
-                  Liderança
-               </div>
-               <h2 className="text-3xl md:text-4xl font-bold text-text-light dark:text-white">
-                  Quem está à frente da Agiliza?
-               </h2>
-               <div className="space-y-4 text-lg text-subtext-light dark:text-subtext-dark leading-relaxed">
-                   <p>
-                      A Agiliza Crédito é liderada por uma equipe de especialistas com profundo conhecimento no mercado financeiro e na legislação de crédito consignado. 
-                   </p>
-                   <p>
-                      Nosso compromisso vai além dos números: buscamos entender a realidade de cada servidor público para oferecer soluções que realmente façam a diferença. Com uma gestão pautada na ética e na transparência, construímos uma empresa sólida e confiável.
-                   </p>
-               </div>
-               <div className="pt-2 flex items-center gap-4">
-                  <div className="flex -space-x-4">
-                    <img className="w-12 h-12 rounded-full border-2 border-white dark:border-gray-800 object-cover" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=100&h=100" alt="Consultor" />
-                    <img className="w-12 h-12 rounded-full border-2 border-white dark:border-gray-800 object-cover" src="https://images.unsplash.com/photo-1573496359-136d4745edea?auto=format&fit=crop&q=80&w=100&h=100" alt="Consultora" />
-                    <img className="w-12 h-12 rounded-full border-2 border-white dark:border-gray-800 object-cover" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=100&h=100" alt="Diretor" />
-                  </div>
-                  <div className="text-sm font-medium text-text-light dark:text-white">
-                    <p>Equipe Especializada</p>
-                    <p className="text-primary">Pronta para te atender</p>
-                  </div>
-               </div>
+              <div className="inline-block px-4 py-1.5 bg-orange-100 dark:bg-orange-900/30 text-primary rounded-full font-semibold text-sm">
+                Liderança
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-text-light dark:text-white">
+                Quem está à frente da Agiliza?
+              </h2>
+              <div className="space-y-4 text-lg text-subtext-light dark:text-subtext-dark leading-relaxed">
+                <p>
+                  A Agiliza Crédito é liderada por uma equipe de especialistas com profundo conhecimento no mercado financeiro e na legislação de crédito consignado.
+                </p>
+                <p>
+                  Nosso compromisso vai além dos números: buscamos entender a realidade de cada servidor público para oferecer soluções que realmente façam a diferença. Com uma gestão pautada na ética e na transparência, construímos uma empresa sólida e confiável.
+                </p>
+              </div>
+              <div className="pt-2 flex items-center gap-4">
+                <div className="flex -space-x-4">
+                  <img className="w-12 h-12 rounded-full border-2 border-white dark:border-gray-800 object-cover" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=100&h=100" alt="Consultor" />
+                  <img className="w-12 h-12 rounded-full border-2 border-white dark:border-gray-800 object-cover" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=100&h=100" alt="Consultora" />
+                  <img className="w-12 h-12 rounded-full border-2 border-white dark:border-gray-800 object-cover" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=100&h=100" alt="Diretor" />
+                </div>
+                <div className="text-sm font-medium text-text-light dark:text-white">
+                  <p>Equipe Especializada</p>
+                  <p className="text-primary">Pronta para te atender</p>
+                </div>
+              </div>
             </div>
             {/* Image */}
             <div className="w-full md:w-1/2">
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
-                    <img 
-                      src="/images/office-workspace.jpg" 
-                      alt="Equipe Agiliza trabalhando" 
-                      className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
-                        <p className="text-white font-medium text-lg border-l-4 border-primary pl-4">"Nosso foco é a sua tranquilidade financeira."</p>
-                    </div>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
+                <img
+                  src="/images/office-workspace.jpg"
+                  alt="Equipe Agiliza trabalhando"
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
+                  <p className="text-white font-medium text-lg border-l-4 border-primary pl-4">"Nosso foco é a sua tranquilidade financeira."</p>
                 </div>
+              </div>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ const About: React.FC = () => {
       <section className="py-20 bg-surface-light dark:bg-surface-dark border-t border-gray-200 dark:border-gray-800">
         <div className="container mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-             <div className="order-2 lg:order-1 space-y-10">
+            <div className="order-2 lg:order-1 space-y-10">
               <div>
                 <h2 className="text-3xl font-bold text-text-light dark:text-white mb-4">
                   Nossa Missão
@@ -141,21 +141,21 @@ const About: React.FC = () => {
       {/* Stats/Expertise */}
       <section className="py-20 bg-background-light dark:bg-background-dark">
         <div className="container mx-auto px-6 text-center">
-            <h2 className="text-3xl font-bold text-text-light dark:text-white mb-16">
-              Especialistas em Crédito Público
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-                {[
-                    { title: "Governo do Tocantins", icon: "account_balance" },
-                    { title: "Igeprev", icon: "history_edu" },
-                    { title: "Prefeituras Municipais", icon: "location_city" }
-                ].map((item, idx) => (
-                    <div key={idx} className="p-8 bg-surface-light dark:bg-surface-dark rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
-                         <span className="material-icons-outlined text-5xl text-primary mb-6 block mx-auto">{item.icon}</span>
-                         <h3 className="text-xl font-bold text-text-light dark:text-white">{item.title}</h3>
-                    </div>
-                ))}
-            </div>
+          <h2 className="text-3xl font-bold text-text-light dark:text-white mb-16">
+            Especialistas em Crédito Público
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              { title: "Governo do Tocantins", icon: "account_balance" },
+              { title: "Igeprev", icon: "history_edu" },
+              { title: "Prefeituras Municipais", icon: "location_city" }
+            ].map((item, idx) => (
+              <div key={idx} className="p-8 bg-surface-light dark:bg-surface-dark rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                <span className="material-icons-outlined text-5xl text-primary mb-6 block mx-auto">{item.icon}</span>
+                <h3 className="text-xl font-bold text-text-light dark:text-white">{item.title}</h3>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -163,16 +163,16 @@ const About: React.FC = () => {
       <section className="py-20 bg-surface-light dark:bg-surface-dark border-t border-gray-200 dark:border-gray-800">
         <div className="container mx-auto px-6">
           <div className="bg-primary rounded-3xl p-10 md:p-16 text-center shadow-xl relative overflow-hidden">
-             <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full translate-x-1/2 -translate-y-1/2"></div>
-             <div className="relative z-10">
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Pronto para dar o próximo passo?</h2>
-                <p className="text-orange-100 text-lg mb-8 max-w-2xl mx-auto">
-                    Conte com a Agiliza para encontrar a melhor solução financeira para você.
-                </p>
-                <Link to="/contact" className="inline-block bg-white text-primary font-bold py-3.5 px-8 rounded-full shadow-lg hover:bg-orange-50 transition-colors">
-                    Fale com um Consultor
-                </Link>
-             </div>
+            <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full translate-x-1/2 -translate-y-1/2"></div>
+            <div className="relative z-10">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Pronto para dar o próximo passo?</h2>
+              <p className="text-orange-100 text-lg mb-8 max-w-2xl mx-auto">
+                Conte com a Agiliza para encontrar a melhor solução financeira para você.
+              </p>
+              <Link to="/contact" className="inline-block bg-white text-primary font-bold py-3.5 px-8 rounded-full shadow-lg hover:bg-orange-50 transition-colors">
+                Fale com um Consultor
+              </Link>
+            </div>
           </div>
         </div>
       </section>
