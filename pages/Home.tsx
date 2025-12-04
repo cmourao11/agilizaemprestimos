@@ -186,7 +186,7 @@ const Home: React.FC = () => {
                 className="inline-flex items-center justify-center gap-2 bg-white text-primary font-bold py-4 px-6 md:px-10 w-full sm:w-auto rounded-full hover:bg-orange-50 transition-all shadow-lg transform hover:-translate-y-1"
               >
                 <span className="material-icons-outlined">whatsapp</span>
-                Fale com um Consultor
+                Fale com um Consultor(a)
               </a>
             </div>
           </div>

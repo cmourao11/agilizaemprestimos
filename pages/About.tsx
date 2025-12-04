@@ -169,8 +169,8 @@ const About: React.FC = () => {
               <p className="text-orange-100 text-lg mb-8 max-w-2xl mx-auto">
                 Conte com a Agiliza para encontrar a melhor solução financeira para você.
               </p>
-              <Link to="/contact" className="inline-block bg-white text-primary font-bold py-3.5 px-8 rounded-full shadow-lg hover:bg-orange-50 transition-colors">
-                Fale com um Consultor
+              <Link to="/contact" className="inline-flex items-center justify-center bg-white text-primary font-bold py-3.5 px-8 rounded-full shadow-lg hover:bg-orange-50 transition-colors">
+                Fale com um Consultor(a)
               </Link>
             </div>
           </div>

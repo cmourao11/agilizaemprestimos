@@ -23,7 +23,9 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 h-20 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <img src="/images/logo-full.png" alt="Agiliza Crédito" className="h-10 w-auto" />
+          <span className="text-xl font-bold text-primary">
+            Bem-vindo à Agiliza
+          </span>
         </Link>
 
         {/* Desktop Nav */}
