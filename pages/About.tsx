@@ -58,8 +58,8 @@ const About: React.FC = () => {
             <div className="w-full md:w-1/2">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
                     <img 
-                      src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1632&q=80" 
-                      alt="Reunião de liderança Agiliza" 
+                      src="/images/office-workspace.jpg" 
+                      alt="Equipe Agiliza trabalhando" 
                       className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
@@ -129,8 +129,8 @@ const About: React.FC = () => {
             <div className="order-1 lg:order-2 relative">
               <div className="absolute -inset-4 bg-primary/10 rounded-2xl transform rotate-3"></div>
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeAEx-30Sva_xwrvi60wEUJRugoMvb8elqdIQFlyvps4XY288EsXwObKoSXVLN_C3KwBbmGIjSJq8W78yMX25uhnOq1ACOVsad4IaO5AeuCikuQj7s0weCDS8HRXAdDdNI1xSWhOLtEHjHcmVpbehr6ExBO32W6z2UIYawj6TJVQHsI5uP12lW7AYrBG3nij0JnAfhnxxgYEYOT7WmTYNgVmXLwXHxwp0XFOekT9oU8OF0UKOKPKng3NSpTZfbipM2-lEf3unRF4U"
-                alt="Equipe Agiliza"
+                src="/images/office-reception.jpg"
+                alt="Recepção Agiliza"
                 className="relative rounded-2xl shadow-xl w-full h-auto object-cover"
               />
             </div>
